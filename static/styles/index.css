@@ -1,0 +1,144 @@
+@font-face 
+{
+  font-family: "Italiana";
+  src: url("../fonts/Italiana/Italiana-Regular.ttf");
+  font-weight: 1000;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "Island-Moments";
+  src: url("../fonts/Island_Moments/IslandMoments-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+section
+{
+    width: 100vw;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 8vh;
+    background-image: url('../images/hero_img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section img
+{
+    display: none;
+}
+
+.top-hero
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    padding-top: 8vh;
+}
+
+h1
+{
+    font-family: "Italiana";
+    font-size: 4rem;
+    color: white;
+
+}
+
+h2
+{
+    font-family: "Italiana";
+    font-size: 2rem;
+    color: white;
+}
+
+h3
+{
+    font-family: "Italiana";
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.line1
+{
+    width: 20vw;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.line2
+{
+    width: 10vw;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 3rem;   
+}
+.cursive-text
+{
+    font-family: "Island-Moments";
+    font-size: 1.5rem;
+    color: white;
+}
+
+.bottom-hero
+{
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 30vh;
+    width: 50vw;
+    background-color: rgba(2, 5, 9, 0.3);
+    border-radius: 1vw;
+    margin-top: 10vh;
+}
+
+.buttons
+{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+button
+{
+    font-family: "Italiana";
+    font-size: 1rem;
+    color: white;  
+    width: 7vw;
+    height: 5vh;
+    border: solid 0.5px white;
+    border-radius: 1vw;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.4);
+}
